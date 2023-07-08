@@ -9,14 +9,26 @@ body{
 header{
     
     background-color:#FFF8F3;
+    background-image:url("./images/header_bg.png"),url("./images/developer.png");
+    /* eivabe duita background set kora jabe */
+   background-repeat: no-repeat;
+   background-position:bottom right,bottom left;
+   /* duita background er eksathe position set kora jabe */
+   background-size:auto;
+
 }
+
+
+
 nav{
     display:flex;
     align-items:center;
-    justify-content:space-around;
-    margin:20px 0 0 0 ;
+    justify-content:space-between;
+    padding:30px 50px 0px 150px;
 }
-
+nav h1{
+    font-size: 55px;
+}
 nav h1 span{
     color:#FD6E0A;
 }
@@ -26,7 +38,8 @@ nav li{
     list-style:none;
 }
 nav>ul{
-    display:flex;   
+    display:flex;
+    align-items:center;   
 }
 
 nav a{
@@ -35,8 +48,10 @@ nav a{
     font-weight:bold;
 }
 img{
-   height:676px;
-   width:850px;
+   height:650px;
+   width:800px;
+   transform:scaleX(-1);
+   
 }
 .btn-primary{
     background-color:#FD6E0A;
@@ -51,4 +66,20 @@ img{
     height:45px;
     border:none;
     border-radius:10px;
+}
+.banner{
+    padding:30px 0px 0px 150px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    max-width:600px;
+}
+.name{
+    padding:10px 0;
+    font-size:60px;
+}
+.des{
+    padding:0 0 10px 0;
 }
