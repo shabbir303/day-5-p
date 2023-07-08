@@ -1,0 +1,16 @@
+*{
+    margin:0px;
+}
+
+nav h1 span{
+    color:#FD6E0A;
+}
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+nav>ul>li{
+    list-style:none;
+    display:flex;
+}
