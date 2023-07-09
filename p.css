@@ -182,3 +182,49 @@ hr{
 .section4 button{
     margin:0px 700px;
 }
+footer{
+    height:400px;
+    width:100%;
+    background-color:#2091a5;
+    display:flex;
+    justify-content:space-around;
+    padding:130px 230px 250px 117px;
+    color:white;
+}
+footer .fdescription h2{
+    font-size: 40px;
+    padding:10px 0px;
+}
+footer .fdescription p{
+    width:400px;
+    padding:10px 0px;
+}
+footer .fdescription .icon{
+    color:#FD6E0A;
+    gap:50px;
+}
+footer .fdescription .icon i{
+    padding-right:20px;
+    padding-top:10px;
+}
+footer .fo h2{
+    font-size:40px;
+    padding-bottom:10px;
+}
+footer>.fo {
+    display:block;
+    box-shadow:0 0 10 black;
+}
+footer .fo form .mail{
+    width:500px;
+    height:40px;
+    margin:10px 0px;
+}
+footer .fo form .comment{
+    margin-bottom:20px;
+}
+footer .fo form .btn{
+    padding:10px;
+    background-color:#FD6E0A;
+    border-radius:5px;
+}
