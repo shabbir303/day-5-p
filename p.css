@@ -1,5 +1,6 @@
 *{
-    margin:0px;
+    margin-left:0px;
+    
 
 }
 body{
@@ -15,6 +16,7 @@ header{
    background-position:bottom right,bottom left;
    /* duita background er eksathe position set kora jabe */
    background-size:auto;
+   width:100%;
 
 }
 
@@ -211,20 +213,22 @@ footer .fo h2{
     font-size:40px;
     padding-bottom:10px;
 }
-footer>.fo {
-    display:block;
-    box-shadow:0 0 10 black;
-}
+
 footer .fo form .mail{
     width:500px;
     height:40px;
     margin:10px 0px;
+    box-shadow:0 0 10px black;
+    border:none;
 }
 footer .fo form .comment{
     margin-bottom:20px;
+    box-shadow:0 0 10px black;
+    border:none;
 }
 footer .fo form .btn{
     padding:10px;
     background-color:#FD6E0A;
     border-radius:5px;
+    border:none;
 }
